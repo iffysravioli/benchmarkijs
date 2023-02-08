@@ -7,4 +7,10 @@ for i in range(1010):
     result += i
 for i in range(5*10**9):
     result *= i
-    
+for i in range(2*10**9):
+    result /= i 
+#stop timer
+end_time = time.time()
+#calculating & printing the execution time 
+execution_time = end_time - start_time
+print("Integer operation benchmark execution time:", execution_time)
