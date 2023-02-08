@@ -27,4 +27,9 @@ for i in range(5*10**9):
 for i in range(2*10**9):
     result /= i 
 
-    
+#to stop the timer 
+end_time = time.time()
+
+#calculate & print its exection time 
+execution_time = end_time - start_time
+print("64-floating point operation benchmark execution time:", execution_time)
