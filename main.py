@@ -3,16 +3,16 @@ import time
 #32-bit integer operation 
 def int_operation():
     start_time = time.time()
-    value = 1 
-    for num in range(10**10):
-        value += num 
-    for num in range(5*10**9):
-        value *= num
-    for num in range(2*10**9):
-        value /= num 
+    count = 1 
+    for i in range(10**10):
+        count += i
+    for i in range(5*10**9):
+        count *= i
+    for i in range(2*10**9):
+        count /= i
     end_time = time.time()
     execution_time = end_time - start_time 
-    print("The 32-bit Integer operation benchmark runtime: ", execution_time)
+    print("The 32-bit Integer operation benchmark execution time: ", execution_time)
 int_operation()
 
 #64-bit Floating Point Operation Benchmark
