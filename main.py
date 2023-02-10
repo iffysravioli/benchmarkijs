@@ -1,7 +1,7 @@
 import time 
 
 #32-bit integer operation 
-def int_operation():
+def integer_op():
     start_time = time.time()
     count = 1 
     for i in range(10**10):
@@ -9,11 +9,11 @@ def int_operation():
     for i in range(5*10**9):
         count *= i
     for i in range(2*10**9):
-        count /= i
+        count /= 1
     end_time = time.time()
     execution_time = end_time - start_time 
     print("The 32-bit Integer operation benchmark execution time: ", execution_time)
-int_operation()
+integer_op()
 
 #64-bit Floating Point Operation Benchmark
 def float_point():
@@ -28,3 +28,4 @@ def float_point():
     stop_timer2 = time.time()
     execution_time2 = stop_timer2 - start_time
     print("The 64-bit Floating Point Opreation benchmark runtime is ", execution_time2)
+float_point()
