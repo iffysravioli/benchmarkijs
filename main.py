@@ -54,7 +54,7 @@ def harddrive1():
             end_timer4 = time.time()
             execution_time4 = end_timer4 - start_timer4 
             print("The Hard drive 1 benchmark runtime is ", execution_time4)
-
+harddrive1()
 
 #Hard Drive 2 
 def harddrive2():
@@ -68,3 +68,4 @@ def harddrive2():
             end_timer5 = time.time()
             execution_time5 = end_timer5 - start_timer5 
             print("The Hard drive 1 benchmark runtime is ", execution_time5)
+harddrive2()
